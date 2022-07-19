@@ -1,0 +1,10 @@
+# Secrets
+.env
+
+# Caches
+.mypy_cache/
+__pycache__/
+.venv/
+
+# Sandboxes
+sandbox.py

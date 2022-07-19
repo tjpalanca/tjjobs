@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "postgres.motherwell",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "dagster",
+            "database": "dagster",
+            "username": "tjpalanca",
+            "password": "J8Dk7S7WkGZYjeMP"
+        }
+    ]
+}

@@ -12,7 +12,7 @@ python = "^3.10"
 dagster = "^0.15.6"
 dagit = "^0.15.6"
 requests = "^2.28.1"
-tjhome = {git = "https://github.com/tjpalanca/tjhome"}
+tjhome = {git = "https://github.com/tjpalanca/tjhome.git", rev = "a448f1d"}
 dagster-postgres = "^0.15.6"
 
 [tool.poetry.dev-dependencies]

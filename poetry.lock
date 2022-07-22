@@ -1362,9 +1362,9 @@ types-requests = "^2.28.1"
 
 [package.source]
 type = "git"
-url = "https://github.com/tjpalanca/tjhome"
-reference = "master"
-resolved_reference = "d5196c14d30b35a7bd79b49d22075d11cc31fe13"
+url = "https://github.com/tjpalanca/tjhome.git"
+reference = "a448f1d"
+resolved_reference = "a448f1d201218af153ab13724a153036e3f80663"
 
 [[package]]
 name = "tomli"
@@ -1594,7 +1594,7 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "ef08d23ea2e696419d72f244b5768836685bcf0fb4597f960b844cf71d472b13"
+content-hash = "de0a1af4e593ece41a6dbbced14db08f3d6e4d7b2fd764555a5d4cebbb22243a"
 
 [metadata.files]
 alembic = []

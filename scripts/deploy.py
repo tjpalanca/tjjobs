@@ -3,6 +3,8 @@ from os import getenv
 
 
 def deploy():
-    requests.post(
+    resp = requests.post(
         url=getenv("CLOUD66_DEPLOY_URL"), params={"services": "tjjobs,tjjobs-gateway"}
     )
+    print(resp.text)
+    return

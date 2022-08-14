@@ -1,4 +1,5 @@
 import requests
+from . import image
 from os import getenv
 
 
@@ -8,3 +9,9 @@ def deploy():
     )
     print(resp.text)
     return
+
+
+def build_and_deploy():
+    image.build()
+    image.push()
+    deploy()

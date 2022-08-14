@@ -1,4 +1,3 @@
-import subprocess
 import dotenv
 from python_on_whales import docker
 from poetry.core.pyproject.toml import PyProjectTOML
